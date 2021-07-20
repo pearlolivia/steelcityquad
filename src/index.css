@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "SpicyRiceReg";
+  src: local("SpicyRiceReg"),
+  url("./fonts/SpicyRice-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
