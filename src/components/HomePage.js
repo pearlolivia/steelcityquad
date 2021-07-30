@@ -26,7 +26,7 @@ const textStyle = {
 
 const properties = {
     dots: true,
-    arrows: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     indicators: true,
@@ -66,12 +66,12 @@ export default class HomePage extends Component {
                 </div>
                 <img src={Banner} style={imgStyle}/>
             </div>
-            <div style={{paddingLeft: "12%", paddingBottom: "40px", paddingTop: "40px"}}>
+            <div style={{paddingLeft: "17%", paddingBottom: "40px", paddingTop: "40px"}}>
                 <Slider {...properties}>
                     {photos.map((photo) => {
                         return (
                             <div>
-                                <img src={photo} style={{width: "85%", height: "600px"}}/>
+                                <img src={photo} style={{width: "75%", height: "500px", boxShadow: "5px 10px #888888"}}/>
                             </div>
                         )
                     })}
@@ -83,7 +83,7 @@ export default class HomePage extends Component {
                         {vertiPhotos.map((photo) => {
                             return (
                                 <div>
-                                    <img src={photo} style={{width: "85%", height: "600px"}}/>
+                                    <img src={photo} style={{width: "85%", height: "600px", boxShadow: "5px 10px #888888"}}/>
                                 </div>
                             )
                         })}

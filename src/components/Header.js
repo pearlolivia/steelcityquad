@@ -1,13 +1,17 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../images/SteelCityQuadLogo.jpeg';
+import '../styles/header.css';
 
 const linkStyle = {
     textDecoration: "none",
     padding: '10px',
-    fontFamily: "SpicyRiceReg",
+    fontFamily: "Truckin",
     fontSize: "30px",
-    color: "black"
+    color: "black",
+    ':visited': {
+        color: "#A592C9"
+    }
 }
 
 export const Header = () => {
@@ -17,9 +21,9 @@ export const Header = () => {
                 <img src={logo} style={{width: '250px', height: '250px'}}/>
             </div>
             <div style={{margin: "auto", width: "70%", textAlign: "center"}}>
-                <Link to="" style={linkStyle}>About</Link>
-                <Link to="/calendar" style={linkStyle}> Calendar</Link>
-                <Link to="/donate" style={linkStyle}>Donations</Link>
+                <Link to="" style={linkStyle} className={"headerLink"}>About</Link>
+                <Link to="/calendar" style={linkStyle} className={"headerLink"}> Calendar</Link>
+                <Link to="/donate" style={linkStyle} className={"headerLink"}>Donations</Link>
             </div>
         </div>
     )
