@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/steelcityquad/static/css/main.cc178450.chunk.css",
-    "main.js": "/steelcityquad/static/js/main.677116a7.chunk.js",
-    "main.js.map": "/steelcityquad/static/js/main.677116a7.chunk.js.map",
+    "main.js": "/steelcityquad/static/js/main.273992b8.chunk.js",
+    "main.js.map": "/steelcityquad/static/js/main.273992b8.chunk.js.map",
     "runtime-main.js": "/steelcityquad/static/js/runtime-main.b7d6fc4e.js",
     "runtime-main.js.map": "/steelcityquad/static/js/runtime-main.b7d6fc4e.js.map",
     "static/css/2.f5ad6cfb.chunk.css": "/steelcityquad/static/css/2.f5ad6cfb.chunk.css",
-    "static/js/2.b12b0ef2.chunk.js": "/steelcityquad/static/js/2.b12b0ef2.chunk.js",
-    "static/js/2.b12b0ef2.chunk.js.map": "/steelcityquad/static/js/2.b12b0ef2.chunk.js.map",
+    "static/js/2.5060b994.chunk.js": "/steelcityquad/static/js/2.5060b994.chunk.js",
+    "static/js/2.5060b994.chunk.js.map": "/steelcityquad/static/js/2.5060b994.chunk.js.map",
     "static/js/3.34798bc3.chunk.js": "/steelcityquad/static/js/3.34798bc3.chunk.js",
     "static/js/3.34798bc3.chunk.js.map": "/steelcityquad/static/js/3.34798bc3.chunk.js.map",
     "index.html": "/steelcityquad/index.html",
     "static/css/2.f5ad6cfb.chunk.css.map": "/steelcityquad/static/css/2.f5ad6cfb.chunk.css.map",
     "static/css/main.cc178450.chunk.css.map": "/steelcityquad/static/css/main.cc178450.chunk.css.map",
-    "static/js/2.b12b0ef2.chunk.js.LICENSE.txt": "/steelcityquad/static/js/2.b12b0ef2.chunk.js.LICENSE.txt",
+    "static/js/2.5060b994.chunk.js.LICENSE.txt": "/steelcityquad/static/js/2.5060b994.chunk.js.LICENSE.txt",
     "static/media/Banner.467bd517.jpeg": "/steelcityquad/static/media/Banner.467bd517.jpeg",
     "static/media/index.css": "/steelcityquad/static/media/SpicyRice-Regular.25ab09ef.ttf",
     "static/media/RollOutJune21.e6e0260a.jpeg": "/steelcityquad/static/media/RollOutJune21.e6e0260a.jpeg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.b7d6fc4e.js",
     "static/css/2.f5ad6cfb.chunk.css",
-    "static/js/2.b12b0ef2.chunk.js",
+    "static/js/2.5060b994.chunk.js",
     "static/css/main.cc178450.chunk.css",
-    "static/js/main.677116a7.chunk.js"
+    "static/js/main.273992b8.chunk.js"
   ]
 }
