@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter, Route, Switch } from "react-router-dom";
 import {Header} from "./components/Header";
+import {Footer} from "./components/Footer";
 import HomePage from "./components/HomePage";
 import CalendarPage from "./components/CalendarPage";
-import DonationPage from "./components/DonationPage";
 
 function App() {
 
@@ -15,9 +15,8 @@ function App() {
             <Switch>
               <Route exact path={"/"} component={HomePage} />
               <Route path={"/calendar"} component={CalendarPage} />
-              <Route path={"/donate"} component={DonationPage}/>
             </Switch>
-            {/*<Footer />*/}
+            <Footer />
           </HashRouter>
         </div>
     );

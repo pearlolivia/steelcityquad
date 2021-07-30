@@ -23,7 +23,6 @@ export const Header = () => {
             <div style={{margin: "auto", width: "70%", textAlign: "center"}}>
                 <Link to="" style={linkStyle} className={"headerLink"}>About</Link>
                 <Link to="/calendar" style={linkStyle} className={"headerLink"}> Calendar</Link>
-                <Link to="/donate" style={linkStyle} className={"headerLink"}>Donations</Link>
             </div>
         </div>
     )

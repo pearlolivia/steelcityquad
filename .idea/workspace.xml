@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3957b45-cf1f-479f-842c-703458ec8b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/KeeponTruckin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CalendarPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CalendarPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DonationPage.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,8 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
@@ -103,7 +103,7 @@
       <updated>1626790638710</updated>
       <workItem from="1626790644256" duration="7401000" />
       <workItem from="1626873932359" duration="2895000" />
-      <workItem from="1627645453339" duration="1651000" />
+      <workItem from="1627645453339" duration="5234000" />
     </task>
     <servers />
   </component>
@@ -115,25 +115,29 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="667" y="240" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.821@0.23.1440.821" timestamp="1626793251084" />
-    <state width="945" height="209" key="GridCell.Tab.0.bottom" timestamp="1626877726691">
+    <state x="684" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627649485729">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
-    <state width="945" height="209" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1626877726691" />
+    <state x="684" y="185" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.817@0.23.1440.817" timestamp="1627649485729" />
+    <state width="945" height="209" key="GridCell.Tab.0.bottom" timestamp="1627649689068">
+      <screen x="0" y="23" width="1440" height="817" />
+    </state>
+    <state width="945" height="209" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1627649689068" />
     <state width="867" height="210" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1626793871039" />
-    <state width="945" height="209" key="GridCell.Tab.0.center" timestamp="1626877726689">
+    <state width="945" height="209" key="GridCell.Tab.0.center" timestamp="1627649689064">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
-    <state width="945" height="209" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1626877726689" />
+    <state width="945" height="209" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1627649689064" />
     <state width="867" height="210" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1626793871037" />
-    <state width="945" height="209" key="GridCell.Tab.0.left" timestamp="1626877726688">
+    <state width="945" height="209" key="GridCell.Tab.0.left" timestamp="1627649689062">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
-    <state width="945" height="209" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1626877726688" />
+    <state width="945" height="209" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1627649689062" />
     <state width="867" height="210" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1626793871036" />
-    <state width="945" height="209" key="GridCell.Tab.0.right" timestamp="1626877726690">
+    <state width="945" height="209" key="GridCell.Tab.0.right" timestamp="1627649689066">
       <screen x="0" y="23" width="1440" height="817" />
     </state>
-    <state width="945" height="209" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1626877726690" />
+    <state width="945" height="209" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1627649689066" />
     <state width="867" height="210" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1626793871038" />
     <state x="632" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1627645453270">
       <screen x="0" y="23" width="1440" height="817" />
